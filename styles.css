@@ -85,7 +85,9 @@ h1 {
     transform: translateY(-5px); 
 }
 
-
+.card-text{
+    color: #475569;
+}
 
 .text-primary {
     color: #3b5998; 
