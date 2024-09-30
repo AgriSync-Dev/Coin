@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif; 
 }
 
+/* first step */
 h1 {
     color: #3b5998;
     font-size: 2.5rem; 
@@ -40,7 +41,7 @@ h1 {
     height: auto;
 }
 
-.mobile{
+.mobile {
     position: absolute;
     top: -10%; 
     left: -25%; 
@@ -53,3 +54,31 @@ h1 {
     height: auto; 
 }
 
+.left-section {
+    padding-right: 15px; 
+}
+
+.right-section {
+    display: flex;
+    justify-content: center;
+    padding-left: 15px; 
+}
+
+
+/* second step */
+
+.card {
+    border: 1px solid #e0e0e0; 
+    border-radius: 10px; 
+    transition: transform 0.2s; 
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+
+
+.text-primary {
+    color: #3b5998; 
+}
